@@ -12,6 +12,8 @@ public class HelloWorld {
 
         new ModelScanner().printObject(user);
 
+        System.out.println("nowyBranch");
+
     }
 
 }
