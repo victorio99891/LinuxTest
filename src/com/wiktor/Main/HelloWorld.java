@@ -1,16 +1,16 @@
 package com.wiktor.Main;
 
-import com.wiktor.Model.ModelScanner;
 
+import com.wiktor.Model.ModelScanner;
+import com.wiktor.Model.User;
 
 public class HelloWorld {
 
     public static void main(String[] args) {
 
-        ModelScanner myScanner = new ModelScanner();
+        User user = new User("Wiktor", "Krzyżanowski");
 
-        myScanner.startScanner();
-
+        new ModelScanner().printObject(user);
 
     }
 
